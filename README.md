@@ -1,21 +1,21 @@
-**Dimensional Data Modeling**
+# H1 Dimensional Data Modeling
 
 Construct a series of SQL queries and table definitions that will allow us to model the actor_films dataset 
 in a way that facilitates efficient analysis. This involves creating new tables, defining data types, and writing
 queries to populate these tables with data from the actor_films dataset
 
-*Dataset Overview*
+## H2 Dataset Overview
 
-The actor_films dataset contains the following fields:
+- The actor_films dataset contains the following fields:
 
-actor: The name of the actor.
-actorid: A unique identifier for each actor.
-film: The name of the film.
-year: The year the film was released.
-votes: The number of votes the film received.
-rating: The rating of the film.
-filmid: A unique identifier for each film.
-The primary key for this dataset is (actor_id, film_id).
+    - `actor:` The name of the actor.
+    - `actorid:` A unique identifier for each actor.
+    - `film:` The name of the film.
+    - `year:` The year the film was released.
+    - `votes:` The number of votes the film received.
+    - `rating:` The rating of the film.
+    - `filmid:` A unique identifier for each film.
+    - The primary key for this dataset is (actor_id, film_id).
 
 
 DDL for actors table: Create a DDL for an actors table with the following fields:
