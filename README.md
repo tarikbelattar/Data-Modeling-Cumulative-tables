@@ -15,18 +15,18 @@ queries to populate these tables with data from the actor_films dataset
     - `votes:` The number of votes the film received.
     - `rating:` The rating of the film.
     - `filmid:` A unique identifier for each film.
-    - The primary key for this dataset is (actor_id, film_id).
+    -  The primary key for this dataset is (actor_id, film_id).
 
-
-DDL for actors table: Create a DDL for an actors table with the following fields:
+## H2 Dimentional model 
+1. ** DDL for actors table: Create a DDL for an actors table with the following fields:
 
 films: An array of struct with the following fields:
 
-film: The name of the film.
-votes: The number of votes the film received.
-rating: The rating of the film.
-filmid: A unique identifier for each film.
-quality_class: This field represents an actor's performance quality, determined by the average rating of movies of their most recent year. It's categorized as follows:
+- `film:` The name of the film.
+- `votes:` The number of votes the film received.
+- `rating:` The rating of the film.
+- `filmid:` A unique identifier for each film.
+- `quality_class:` This field represents an actor's performance quality, determined by the average rating of movies of their most recent year. It's categorized as follows:
 
 star: Average rating > 8.
 good: Average rating > 7 and ≤ 8.
