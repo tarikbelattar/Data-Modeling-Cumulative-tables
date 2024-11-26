@@ -1,11 +1,15 @@
 -- *******************************************************
+-- * 25 November 2024                                     *
+-- * Name: Tarik Bel Attar                                *
+-- * Email: tarikbelattar@gmail.com                       *
+-- * Linkedin: https://www.linkedin.com/in/tarikbelattar/ *
 -- * Incremental Actors Update Pipeline                   *
 -- * Description:                                        *
 -- *   This pipeline performs an incremental update by     *
 -- *   combining the previous year's data with new        *
 -- *   incoming data, updating actors' attributes accordingly.*
--- * Author: [Your Name]                                  *
--- * Date: [Date]                                         *
+-- * Author: [Tarik Bel Attar]                                  *
+-- * Date: [24/11/2024]                                         *
 -- *******************************************************
 
 -- **1. Define Common Table Expressions (CTEs)**

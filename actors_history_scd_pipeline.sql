@@ -1,7 +1,7 @@
 -- *******************************************************
 -- * Incremental SCD Update for actors_history_scd Table *
--- * Author: [Your Name]                                  *
--- * Date: [Date]                                         *
+-- * Author: [Tarik Bel Attar]                                  *
+-- * Date: [25/11/2024]                                         *
 -- *******************************************************
 
 -- **Purpose:**

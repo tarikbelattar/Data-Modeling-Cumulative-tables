@@ -9,7 +9,10 @@
 -- *   - votes   INTEGER       - The number of votes the film has received.*
 -- *   - rating  INTEGER       - The average rating of the film.          *
 -- *   - filmid  TEXT          - A unique identifier for the film.        *
--- *   - year    INTEGER       - The release year of the film.           *
+-- *   - year    INTEGER       - The release year of the film.
+-- * 25 November 2024                                     *
+-- * Name: Tarik Bel Attar                                *
+-- * Email: tarikbelattar@gmail.com
 -- ***********************************************************************
 
 CREATE TYPE films AS (
@@ -60,7 +63,10 @@ CREATE TYPE quality_class AS
 -- * Usage:                                                              *
 -- *   This table is used to track actors' filmographies and performance  *
 -- *   classifications on a yearly basis, facilitating historical data    *
--- *   analysis and reporting.                                           *
+-- *   analysis and reporting.
+-- * 25 November 2024                                     *
+-- * Name: Tarik Bel Attar                                *
+-- * Email: tarikbelattar@gmail.com
 -- ***********************************************************************
 
 CREATE TABLE IF NOT EXISTS actors (

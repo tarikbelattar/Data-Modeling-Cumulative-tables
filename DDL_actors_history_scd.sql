@@ -1,5 +1,9 @@
 -- ***********************************************************************
--- * Table: actors_history_scd                                             *
+-- * 25 November 2024
+-- * Name: Tarik Bel Attar
+-- * Email: tarikbelattar@gmail.com
+-- * Linkedin: https://www.linkedin.com/in/tarikbelattar/
+-- Table: actors_history_scd                                             *
 -- * Description:                                                         *
 -- *   This table implements a Slowly Changing Dimension (SCD) Type 2      *
 -- *   strategy for tracking the historical changes in actors' attributes. *
